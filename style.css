@@ -1,0 +1,35 @@
+p:first-child {
+  color: #00ffff;
+}
+
+p:last-child {
+  color: #7fffd4;
+}
+
+p:not(.padrao) {
+  color: #6495ed;
+}
+
+li:nth-child(odd) {
+  color: #1e90ff;
+}
+
+li:nth-child(2n) {
+  color: #ff8c00;
+}
+
+li:nth-child(9) {
+  color: #808080;
+}
+
+/* li:nth-child(n+10):nth-child(-n+12){
+color: #964b00;
+} */
+
+li:nth-last-child(1) {
+  color: #ffff00;
+}
+
+p:only-child {
+  color: #00ced1;
+}
